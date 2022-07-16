@@ -1,0 +1,294 @@
+@font-face {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"), 
+    url("../fonts/roboto-v30-latin-regular.woff") format("woff"); 
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2"), 
+    url("../fonts/roboto-v30-latin-700.woff") format("woff"); 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+img {
+    display: block;
+}
+
+.site-head {
+    padding-top: 30px;
+}
+
+.head-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-box {
+    display: flex;
+    align-items: center;
+}
+
+.head-list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-right: 40px;
+    padding: 0;
+    list-style: none;
+}
+
+.head-link {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #333333;
+    margin-left: 30px;
+    padding-bottom: 6px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: .3s;
+}
+
+.head-link:hover {
+    opacity: 0.7;
+    border-bottom-color: #3338;
+}
+
+.head-inp {
+    width: 173px;
+    padding-bottom: 6px;
+    border: none;
+    border-bottom: 1px solid #333333;
+}
+
+.head-inp::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+}
+
+.hero {
+    background-image: url("../Images/aplle-watch.png");
+    background-position: calc(50% + 600px) calc(50% + 56px);
+    background-size: 587px 565px;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #DDDDDD;
+    padding-top: 170px;
+    padding-bottom: 185px;
+}
+
+.hero-info {
+    width: 490px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #777777;
+    margin: 0;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    border-left: 3px solid #888888;
+}
+
+.link-brown {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 30px;
+    padding: 12px 38px;
+    background-color: #EA625C;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.link-brown:hover {
+    background-color: #C9514C;
+}
+
+.info-section {
+    padding-top: 68px;
+    padding-bottom: 140px;
+}
+
+.info-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-item {
+    width: 280px;
+    list-style: none;
+}
+
+.info-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #222222;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.info-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #333333;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+}
+
+.rectangle {
+    width: 8px;
+    height: 8px;
+    background: #DDDDDD;
+    margin-right: 10px;
+}
+
+.info-link {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #EA625C;
+    text-decoration: none;
+}
+
+.info-link::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #EA625C;
+    margin-right: 10px;
+    transition: .3s;
+}
+
+.info-link:hover::before {
+    width: 60px;
+}
+
+.nike {
+    padding-bottom: 70px;
+}
+
+.nike-box {
+    display: flex;
+    align-items: center;
+}
+
+.nike-link {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 30px;
+    padding: 12px 90px;
+    background-color: #EA625C;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.nike-link:hover {
+    background-color: #C9514C;
+}
+
+.nike-img {
+    margin-left: 210px;
+}
+
+.control {
+    background-image: url("../Images/section-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.control-info {
+    width: 490px;
+    margin-left: auto;
+    padding-top: 240px;
+    padding-bottom: 240px;
+}
+
+.control-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.control-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    padding-left: 40px;
+}
+
+.control-link {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 30px;
+    padding: 12px 46px;background-color: #EA625C;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.control-link:hover {
+    background-color: #C9514C;
+}
